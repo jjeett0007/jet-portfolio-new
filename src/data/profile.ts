@@ -96,36 +96,34 @@ export const profile: Profile = {
   // -------------------------------------------------------------------------
   // BASIC INFO (Required)
   // -------------------------------------------------------------------------
-  name: 'Alex Johnson',
-  title: 'Senior Software Engineer',
-  photo: '/images/profile.jpg', // Set to '' to hide photo
-  email: 'alex.johnson@example.com',
-  location: 'San Francisco, CA',
+  name: 'Dosumu Olayinka Daniel',
+  title: 'Full-Stack Engineer',
+  photo: '', // Set to '' to hide photo
+  email: 'dosumuolayinka151@gmail.com',
+  location: 'Lagos, Nigeria',
 
   // -------------------------------------------------------------------------
   // CONTACT & SOCIAL (Optional - remove or set to undefined if not needed)
   // -------------------------------------------------------------------------
-  phone: '+1 (555) 123-4567',
-  website: 'https://alexjohnson.dev',
-  linkedin: 'https://linkedin.com/in/alexjohnson',
-  github: 'https://github.com/alexjohnson',
-  twitter: 'https://twitter.com/alexjohnson',
+  linkedin: 'https://linkedin.com/in/dosumu-olayinka',
+  github: 'https://github.com/dosumuolayinka',
+  website: 'https://aigenesis.site',
 
   // -------------------------------------------------------------------------
   // PROFESSIONAL SUMMARY
   // Keep this concise: 2-4 sentences that capture who you are professionally
   // -------------------------------------------------------------------------
-  summary: `Results-driven software engineer with 8+ years of experience building scalable web applications. Passionate about clean code, performance optimization, and mentoring junior developers. Expert in React, TypeScript, and cloud architecture.`,
+  summary: `Results-driven Full-Stack Engineer with 4+ years of experience architecting and shipping scalable web applications across fintech, edtech, e-commerce, and AI-powered SaaS platforms. Deep expertise across the modern JavaScript/TypeScript ecosystem (React, Next.js, Node.js, Express) paired with strong backend proficiency in MongoDB, PostgreSQL, Prisma, and Redis. Proven track record building production-grade systems: from multi-tenant CRMs and LMS platforms to AI-integrated tools and real-time communication apps.`,
 
   // -------------------------------------------------------------------------
   // KEY HIGHLIGHTS
   // 3-5 achievement statements with metrics when possible
   // -------------------------------------------------------------------------
   highlights: [
-    'Led development of platform serving 1M+ users',
-    'Reduced page load time by 60%',
-    'Managed team of 5 engineers',
-    'Speaker at 3 tech conferences',
+    'Scaled Genesis AI to 5,000+ beta users as solo builder',
+    'Reduced runtime bugs by ~70% through TypeScript migration',
+    'Achieved ~30% performance improvement via code-splitting and caching',
+    'Built multi-tenant SaaS RBAC systems with org slug-free login',
   ],
 };
 

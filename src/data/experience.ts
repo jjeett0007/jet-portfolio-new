@@ -121,30 +121,30 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-1',
-    title: 'Senior Software Engineer',
-    company: 'TechCorp Inc.',
-    // companyLogo: '/logos/techcorp.png',  // Uncomment and add logo if you have one
-    location: 'San Francisco, CA',
+    title: 'Full-Stack Engineer',
+    company: 'ENY Consulting & Advisory Services Ltd.',
+    location: 'Victoria Island, Lagos (Hybrid)',
     type: 'full-time',
-    startDate: '2022-01',
-    // endDate: undefined,  // Omit or undefined for current position
+    startDate: '2025-01',
     current: true,
     description:
-      'Lead development of customer-facing web applications and mentor junior developers.',
+      'Managing data pipelines and building full-stack solutions for multiple external websites.',
     achievements: [
-      'Architected microservices platform handling 10M+ requests/day',
-      'Reduced deployment time by 80% through CI/CD improvements',
-      'Mentored 3 junior developers to mid-level positions',
-      'Led migration from monolith to microservices architecture',
+      'Managing data pipelines for ~4 external websites (blog, scholarship, fellowship, applicant tracking)',
+      'Collaborating directly with CEO on product strategy and feature roadmaps',
+      'Conducting morning system health checks across AWS, Vercel, MongoDB, and Resend',
+      'Running weekly sprint planning and Friday codebase reviews via GitHub/ESLint',
+      'Delivering backend API integrations and email template systems',
     ],
     technologies: [
       'React',
       'TypeScript',
+      'Next.js',
       'Node.js',
-      'PostgreSQL',
+      'MongoDB',
       'AWS',
-      'Docker',
-      'Kubernetes',
+      'Vercel',
+      'Resend',
     ],
   },
 
@@ -153,65 +153,81 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-2',
-    title: 'Software Engineer',
-    company: 'StartupXYZ',
-    location: 'San Francisco, CA',
+    title: 'Full-Stack Developer',
+    company: 'TRY MAGE',
+    location: 'Remote',
     type: 'full-time',
-    startDate: '2019-03',
-    endDate: '2021-12',
-    current: false,
-    description: 'Full-stack development for a fast-growing SaaS platform.',
+    startDate: '2023-05',
+    current: true,
+    description: 'Building modern React/TypeScript interfaces and scalable REST APIs.',
     achievements: [
-      'Built real-time collaboration features used by 50K+ users',
-      'Implemented automated testing reducing bugs by 40%',
-      'Optimized database queries improving response time by 60%',
+      'Designed and delivered responsive React/TypeScript interfaces reducing design-to-production cycles',
+      'Provisioned scalable REST API endpoints improving developer onboarding',
+      'Applied lazy loading and code-splitting achieving ~30% faster page load times',
+      'Integrated Stripe payment APIs and Mixpanel analytics',
+      'Deployed on Vercel with CI/CD workflows maintaining uptime SLAs',
     ],
-    technologies: ['React', 'Python', 'Django', 'PostgreSQL', 'Redis', 'AWS'],
+    technologies: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Stripe',
+      'Vercel',
+      'MongoDB',
+    ],
   },
 
   // ---------------------------------------------------------------------------
-  // EARLIER POSITION
+  // CONTRACT POSITION
   // ---------------------------------------------------------------------------
   {
     id: 'exp-3',
-    title: 'Junior Developer',
-    company: 'WebAgency Co.',
-    location: 'Los Angeles, CA',
-    type: 'full-time',
-    startDate: '2016-06',
-    endDate: '2019-02',
+    title: 'Frontend Developer (Contract)',
+    company: 'Hush Chat',
+    location: 'Remote',
+    type: 'contract',
+    startDate: '2023-10',
+    endDate: '2023-12',
     current: false,
-    description:
-      'Developed custom web solutions for various clients across different industries.',
+    description: 'Building real-time messaging features.',
     achievements: [
-      'Delivered 20+ client projects on time and within budget',
-      'Introduced component-based architecture improving code reuse',
-      'Created internal tools saving 10 hours/week of manual work',
+      'Integrated REST APIs and WebSocket enabling real-time messaging with sub-1s latency',
+      'Strengthened authentication flows improving onboarding performance',
+      'Optimized mobile responsiveness driving ~25% uplift in mobile user engagement',
     ],
-    technologies: ['JavaScript', 'React', 'PHP', 'MySQL', 'WordPress'],
+    technologies: ['React', 'TypeScript', 'WebSocket', 'REST APIs'],
   },
 
   // ---------------------------------------------------------------------------
-  // ADD MORE POSITIONS HERE
-  // Copy the template below and fill in your details
+  // FREELANCE
   // ---------------------------------------------------------------------------
-  // {
-  //   id: 'exp-4',
-  //   title: 'Your Job Title',
-  //   company: 'Company Name',
-  //   companyLogo: '/logos/company.png',  // Optional
-  //   location: 'City, Country',
-  //   type: 'full-time',
-  //   startDate: 'YYYY-MM',
-  //   endDate: 'YYYY-MM',  // Remove for current position
-  //   current: false,
-  //   description: 'Brief description of your role and responsibilities.',
-  //   achievements: [
-  //     'Achievement with metrics...',
-  //     'Another achievement...',
-  //   ],
-  //   technologies: ['Tech1', 'Tech2', 'Tech3'],
-  // },
+  {
+    id: 'exp-4',
+    title: 'Freelance Full-Stack Developer',
+    company: 'Independent',
+    location: 'Remote',
+    type: 'freelance',
+    startDate: '2021-01',
+    endDate: '2023-04',
+    current: false,
+    description: 'Built various web applications for multiple clients.',
+    achievements: [
+      'Matan Hub — e-commerce platform with Stripe payments and CMS',
+      'The Property Main — real estate platform with MongoDB search',
+      'Royal Ankara — fabric store with Paystack integration and admin CMS',
+      'Wonder Kiddies Store — e-commerce with payment API and order tracking',
+      'Western Skyline Properties — corporate portfolio site',
+    ],
+    technologies: [
+      'React',
+      'Node.js',
+      'MongoDB',
+      'Stripe',
+      'Paystack',
+      'Express',
+    ],
+  },
 ];
 
 // =============================================================================

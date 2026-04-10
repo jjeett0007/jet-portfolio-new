@@ -82,17 +82,12 @@ export interface Language {
  * Add, remove, or rename categories as needed.
  */
 export const skillCategories: string[] = [
-  'Languages',    // Programming languages
-  'Frontend',     // Frontend frameworks & libraries
-  'Backend',      // Backend frameworks & technologies
-  'Databases',    // Database technologies
-  'Cloud',        // Cloud platforms & services
-  'DevOps',       // DevOps tools & practices
-  // Add more categories here:
-  // 'Mobile',
-  // 'Design',
-  // 'Soft Skills',
-  // 'Other',
+  'Frontend',
+  'Backend',
+  'Databases',
+  'AI & Tools',
+  'DevOps & Cloud',
+  'Payments & APIs',
 ];
 
 /**
@@ -105,45 +100,29 @@ export const skillCategories: string[] = [
  */
 export const skills: Skill[] = [
   // ---------------------------------------------------------------------------
-  // PROGRAMMING LANGUAGES
-  // ---------------------------------------------------------------------------
-  {
-    name: 'TypeScript',
-    level: 95,
-    category: 'Languages',
-    yearsOfExperience: 5,
-  },
-  {
-    name: 'JavaScript',
-    level: 95,
-    category: 'Languages',
-    yearsOfExperience: 8,
-  },
-  {
-    name: 'Python',
-    level: 80,
-    category: 'Languages',
-    yearsOfExperience: 4,
-  },
-  {
-    name: 'Go',
-    level: 65,
-    category: 'Languages',
-    yearsOfExperience: 2,
-  },
-
-  // ---------------------------------------------------------------------------
   // FRONTEND
   // ---------------------------------------------------------------------------
   {
-    name: 'React',
+    name: 'React.js',
     level: 95,
     category: 'Frontend',
-    yearsOfExperience: 6,
+    yearsOfExperience: 4,
   },
   {
-    name: 'Next.js',
-    level: 90,
+    name: 'Next.js 14+',
+    level: 95,
+    category: 'Frontend',
+    yearsOfExperience: 4,
+  },
+  {
+    name: 'TypeScript',
+    level: 95,
+    category: 'Frontend',
+    yearsOfExperience: 4,
+  },
+  {
+    name: 'JavaScript (ES2022+)',
+    level: 95,
     category: 'Frontend',
     yearsOfExperience: 4,
   },
@@ -154,10 +133,16 @@ export const skills: Skill[] = [
     yearsOfExperience: 3,
   },
   {
-    name: 'Vue.js',
-    level: 70,
+    name: 'shadcn/ui',
+    level: 85,
     category: 'Frontend',
     yearsOfExperience: 2,
+  },
+  {
+    name: 'HTML5/CSS3',
+    level: 90,
+    category: 'Frontend',
+    yearsOfExperience: 4,
   },
 
   // ---------------------------------------------------------------------------
@@ -167,86 +152,198 @@ export const skills: Skill[] = [
     name: 'Node.js',
     level: 90,
     category: 'Backend',
-    yearsOfExperience: 6,
+    yearsOfExperience: 4,
   },
   {
-    name: 'Express',
-    level: 88,
+    name: 'Express.js',
+    level: 90,
     category: 'Backend',
-    yearsOfExperience: 5,
+    yearsOfExperience: 4,
   },
   {
-    name: 'Django',
+    name: 'NestJS',
     level: 75,
     category: 'Backend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 2,
   },
   {
-    name: 'GraphQL',
+    name: 'Python (FastAPI)',
+    level: 75,
+    category: 'Backend',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'REST APIs',
+    level: 90,
+    category: 'Backend',
+    yearsOfExperience: 4,
+  },
+  {
+    name: 'WebSocket',
     level: 80,
     category: 'Backend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'tRPC',
+    level: 75,
+    category: 'Backend',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Zod',
+    level: 80,
+    category: 'Backend',
+    yearsOfExperience: 2,
   },
 
   // ---------------------------------------------------------------------------
   // DATABASES
   // ---------------------------------------------------------------------------
   {
+    name: 'MongoDB',
+    level: 90,
+    category: 'Databases',
+    yearsOfExperience: 4,
+  },
+  {
     name: 'PostgreSQL',
     level: 85,
     category: 'Databases',
-    yearsOfExperience: 5,
+    yearsOfExperience: 3,
   },
   {
-    name: 'MongoDB',
+    name: 'MySQL',
     level: 80,
-    category: 'Databases',
-    yearsOfExperience: 4,
-  },
-  {
-    name: 'Redis',
-    level: 75,
     category: 'Databases',
     yearsOfExperience: 3,
   },
+  {
+    name: 'Prisma ORM',
+    level: 85,
+    category: 'Databases',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'Redis',
+    level: 80,
+    category: 'Databases',
+    yearsOfExperience: 2,
+  },
 
   // ---------------------------------------------------------------------------
-  // CLOUD & DEVOPS
+  // AI & TOOLS
   // ---------------------------------------------------------------------------
   {
-    name: 'AWS',
-    level: 85,
-    category: 'Cloud',
-    yearsOfExperience: 4,
-  },
-  {
-    name: 'Docker',
-    level: 85,
-    category: 'DevOps',
-    yearsOfExperience: 4,
-  },
-  {
-    name: 'Kubernetes',
-    level: 70,
-    category: 'DevOps',
+    name: 'OpenAI API',
+    level: 90,
+    category: 'AI & Tools',
     yearsOfExperience: 2,
   },
   {
-    name: 'CI/CD',
+    name: 'Anthropic Claude API',
     level: 85,
-    category: 'DevOps',
-    yearsOfExperience: 4,
+    category: 'AI & Tools',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Langchain',
+    level: 80,
+    category: 'AI & Tools',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Prompt Engineering',
+    level: 85,
+    category: 'AI & Tools',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Pinecone (Vector DB)',
+    level: 75,
+    category: 'AI & Tools',
+    yearsOfExperience: 1,
   },
 
   // ---------------------------------------------------------------------------
-  // ADD MORE SKILLS HERE
+  // DEVOPS & CLOUD
   // ---------------------------------------------------------------------------
-  // {
-  //   name: 'Your Skill',
-  //   level: 85,
-  //   category: 'Category Name',
-  //   yearsOfExperience: 3,
-  // },
+  {
+    name: 'AWS',
+    level: 80,
+    category: 'DevOps & Cloud',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Vercel',
+    level: 90,
+    category: 'DevOps & Cloud',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'GCP',
+    level: 70,
+    category: 'DevOps & Cloud',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Docker',
+    level: 80,
+    category: 'DevOps & Cloud',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'CI/CD Pipelines',
+    level: 85,
+    category: 'DevOps & Cloud',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'Datadog',
+    level: 75,
+    category: 'DevOps & Cloud',
+    yearsOfExperience: 1,
+  },
+
+  // ---------------------------------------------------------------------------
+  // PAYMENTS & APIs
+  // ---------------------------------------------------------------------------
+  {
+    name: 'Stripe',
+    level: 85,
+    category: 'Payments & APIs',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'Paystack',
+    level: 85,
+    category: 'Payments & APIs',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'Resend',
+    level: 90,
+    category: 'Payments & APIs',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Nodemailer',
+    level: 85,
+    category: 'Payments & APIs',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Helius (Solana)',
+    level: 75,
+    category: 'Payments & APIs',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'GoHighLevel API',
+    level: 80,
+    category: 'Payments & APIs',
+    yearsOfExperience: 1,
+  },
 ];
 
 /**

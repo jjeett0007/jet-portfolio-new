@@ -131,14 +131,8 @@ export const projectCategories: string[] = [
   'All',
   'Web Application',
   'SaaS',
-  'Mobile App',
-  'Data Visualization',
+  'E-Commerce',
   'Developer Tools',
-  // Add more categories here:
-  // 'E-Commerce',
-  // 'AI/ML',
-  // 'Open Source',
-  // 'Personal Project',
 ];
 
 /**
@@ -155,31 +149,23 @@ export const projects: Project[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'proj-1',
-    slug: 'e-commerce-platform',
-    title: 'E-Commerce Platform',
+    slug: 'genesis-ai',
+    title: 'Genesis AI',
     description:
-      'Full-stack e-commerce solution with real-time inventory management and payment processing.',
-    longDescription: `Built a comprehensive e-commerce platform from scratch, featuring real-time inventory tracking, 
-    secure payment processing with Stripe, and an admin dashboard for order management. The platform handles 
-    thousands of concurrent users and processes over $2M in transactions monthly.`,
-    thumbnail: '/projects/ecommerce-thumb.jpg',
-    images: [
-      '/projects/ecommerce-1.jpg',
-      '/projects/ecommerce-2.jpg',
-      '/projects/ecommerce-3.jpg',
-    ],
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Redis', 'AWS'],
-    category: 'Web Application',
-    role: 'Lead Developer',
-    duration: '6 months',
-    liveUrl: 'https://example-ecommerce.com',
-    githubUrl: 'https://github.com/alexjohnson/ecommerce',
+      'Full-stack AI job application platform with AI-generated tailored resumes, cover letters, and Gmail-integrated recruiter email sending.',
+    thumbnail: '/projects/genesis-ai-thumb.jpg',
+    images: [],
+    technologies: ['Next.js', 'TypeScript', 'OpenAI API', 'Node.js', 'MongoDB', 'Gmail API'],
+    category: 'SaaS',
+    role: 'Solo Builder',
+    duration: 'Ongoing',
+    liveUrl: 'https://aigenesis.site',
     featured: true,
     highlights: [
-      'Processed $2M+ in transactions',
-      '99.9% uptime over 2 years',
-      '50ms average API response time',
-      'Handles 10K+ concurrent users',
+      'Scaled to 5,000+ beta users',
+      'AI-generated tailored resumes and cover letters',
+      'Gmail-integrated recruiter email sending',
+      'PDF resume generation',
     ],
   },
 
@@ -188,27 +174,21 @@ export const projects: Project[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'proj-2',
-    slug: 'task-management-app',
-    title: 'TaskFlow - Task Management',
+    slug: 'emergfunds',
+    title: 'EmergFunds',
     description:
-      'Collaborative task management application with real-time updates and team features.',
-    longDescription: `A modern task management application designed for remote teams. Features include 
-    real-time collaboration, Kanban boards, time tracking, and integrations with popular tools like 
-    Slack and GitHub.`,
-    thumbnail: '/projects/taskflow-thumb.jpg',
-    images: ['/projects/taskflow-1.jpg', '/projects/taskflow-2.jpg'],
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Docker'],
-    category: 'SaaS',
+      'Solana-based transparent fundraising platform enabling on-chain, verifiable donation flows.',
+    thumbnail: '/projects/emergfunds-thumb.jpg',
+    images: [],
+    technologies: ['Next.js', 'Node.js', 'MongoDB', 'Helius', 'Solana Wallet Adapter'],
+    category: 'Web Application',
     role: 'Full-Stack Developer',
-    duration: '4 months',
-    liveUrl: 'https://taskflow-demo.com',
-    githubUrl: 'https://github.com/alexjohnson/taskflow',
+    duration: '3 months',
     featured: true,
     highlights: [
-      '5K+ active users',
-      'Real-time collaboration',
-      '15+ third-party integrations',
-      '4.8/5 user rating',
+      'Built on Solana blockchain',
+      'Transparent on-chain donation tracking',
+      'Verifiable donation flows',
     ],
   },
 
@@ -217,102 +197,90 @@ export const projects: Project[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'proj-3',
-    slug: 'analytics-dashboard',
-    title: 'DataViz Analytics Dashboard',
+    slug: 'aria-browser-agent',
+    title: 'ARIA — Autonomous Browser Agent',
     description:
-      'Interactive analytics dashboard with customizable charts and real-time data visualization.',
-    thumbnail: '/projects/analytics-thumb.jpg',
-    images: ['/projects/analytics-1.jpg', '/projects/analytics-2.jpg'],
-    technologies: ['React', 'D3.js', 'Python', 'FastAPI', 'PostgreSQL'],
-    category: 'Data Visualization',
-    role: 'Frontend Lead',
-    duration: '3 months',
-    // liveUrl: undefined,  // No live demo
-    // githubUrl: undefined,  // Private repository
+      'Vision-based Chrome extension where an AI model controls the browser via screenshot + pixel coordinates.',
+    thumbnail: '/projects/aria-thumb.jpg',
+    images: [],
+    technologies: ['Chrome Extension', 'AI Vision', 'JavaScript', 'Puppeteer'],
+    category: 'Developer Tools',
+    role: 'Creator',
+    duration: '2 months',
     featured: true,
     highlights: [
-      '20+ chart types',
-      'Export to PDF/Excel',
-      'Custom report builder',
-      'Role-based access control',
+      'Multi-page research automation',
+      'Email composition via AI',
+      'Dynamic JS injection',
     ],
   },
 
   // ---------------------------------------------------------------------------
-  // NON-FEATURED PROJECT
+  // PROJECT 4
   // ---------------------------------------------------------------------------
   {
     id: 'proj-4',
-    slug: 'mobile-fitness-app',
-    title: 'FitTrack Mobile App',
+    slug: 'nextcms',
+    title: 'NextCMS',
     description:
-      'Cross-platform fitness tracking application with workout plans and progress analytics.',
-    thumbnail: '/projects/fitness-thumb.jpg',
-    images: ['/projects/fitness-1.jpg', '/projects/fitness-2.jpg'],
-    technologies: ['React Native', 'TypeScript', 'Firebase', 'Node.js'],
-    category: 'Mobile App',
-    role: 'Mobile Developer',
-    duration: '5 months',
-    // liveUrl: undefined,  // App store link would go here
-    githubUrl: 'https://github.com/alexjohnson/fittrack',
+      'Strapi-like headless CMS boilerplate (Next.js 14+, TypeScript, Prisma, Zod, monorepo) supporting PostgreSQL, MongoDB, SQLite, and MySQL.',
+    thumbnail: '/projects/nextcms-thumb.jpg',
+    images: [],
+    technologies: ['Next.js 14+', 'TypeScript', 'Prisma', 'Zod', 'PostgreSQL', 'MongoDB'],
+    category: 'Developer Tools',
+    role: 'Creator',
+    duration: 'Ongoing',
     featured: false,
     highlights: [
-      'iOS & Android support',
-      'Offline-first architecture',
-      'Wearable device integration',
-      '10K+ downloads',
+      'Multi-database support (PostgreSQL, MongoDB, SQLite, MySQL)',
+      'Monorepo architecture',
+      'Type-safe with Zod validation',
     ],
   },
 
   // ---------------------------------------------------------------------------
-  // NON-FEATURED PROJECT
+  // PROJECT 5 - Matan Hub
   // ---------------------------------------------------------------------------
   {
     id: 'proj-5',
-    slug: 'open-source-cli',
-    title: 'DevToolkit CLI',
+    slug: 'matan-hub',
+    title: 'Matan Hub',
     description:
-      'Open-source command-line toolkit for developers with code generation and automation.',
-    thumbnail: '/projects/cli-thumb.jpg',
-    images: ['/projects/cli-1.jpg'],
-    technologies: ['Go', 'Cobra', 'Docker'],
-    category: 'Developer Tools',
-    role: 'Creator & Maintainer',
-    duration: 'Ongoing',
-    // liveUrl: undefined,  // CLI tools usually don't have live URLs
-    githubUrl: 'https://github.com/alexjohnson/devtoolkit',
+      'E-commerce platform with Stripe (USD) payments and CMS-driven content management.',
+    thumbnail: '/projects/matan-hub-thumb.jpg',
+    images: [],
+    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Express'],
+    category: 'E-Commerce',
+    role: 'Full-Stack Developer',
+    duration: '2 months',
     featured: false,
     highlights: [
-      '2K+ GitHub stars',
-      '500+ contributors',
-      'Used by 100+ companies',
-      'Weekly releases',
+      'Stripe USD payments',
+      'CMS-driven content management',
     ],
   },
 
   // ---------------------------------------------------------------------------
-  // ADD MORE PROJECTS HERE
+  // PROJECT 6 - The Property Main
   // ---------------------------------------------------------------------------
-  // {
-  //   id: 'proj-6',
-  //   slug: 'your-project-slug',
-  //   title: 'Your Project Title',
-  //   description: 'Short description of your project...',
-  //   longDescription: 'Detailed description...',  // Optional
-  //   thumbnail: '/projects/your-project-thumb.jpg',
-  //   images: ['/projects/your-project-1.jpg'],
-  //   technologies: ['Tech1', 'Tech2', 'Tech3'],
-  //   category: 'Web Application',
-  //   role: 'Your Role',
-  //   duration: '3 months',
-  //   liveUrl: 'https://your-project.com',  // Optional
-  //   githubUrl: 'https://github.com/you/project',  // Optional
-  //   featured: false,
-  //   highlights: [
-  //     'Highlight 1 with metrics',
-  //     'Highlight 2',
-  //   ],
-  // },
+  {
+    id: 'proj-6',
+    slug: 'the-property-main',
+    title: 'The Property Main',
+    description:
+      'Real estate platform with MongoDB-backed property search and agent-user interactions.',
+    thumbnail: '/projects/property-main-thumb.jpg',
+    images: [],
+    technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
+    category: 'Web Application',
+    role: 'Full-Stack Developer',
+    duration: '2 months',
+    featured: false,
+    highlights: [
+      'MongoDB property search',
+      'Agent-user interactions',
+    ],
+  },
 ];
 
 // =============================================================================
