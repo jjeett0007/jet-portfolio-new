@@ -108,6 +108,7 @@ export const profile: Profile = {
   linkedin: 'https://linkedin.com/in/dosumu-olayinka',
   github: 'https://github.com/dosumuolayinka',
   website: 'https://aigenesis.site',
+  phone: '+234 706 500 9499',
 
   // -------------------------------------------------------------------------
   // PROFESSIONAL SUMMARY
