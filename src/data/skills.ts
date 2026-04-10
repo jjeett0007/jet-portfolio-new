@@ -88,6 +88,7 @@ export const skillCategories: string[] = [
   'AI & Tools',
   'DevOps & Cloud',
   'Payments & APIs',
+  'Automation',
 ];
 
 /**
@@ -341,8 +342,42 @@ export const skills: Skill[] = [
   {
     name: 'GoHighLevel API',
     level: 80,
-    category: 'Payments & APIs',
+    category: 'Automation',
     yearsOfExperience: 1,
+  },
+
+  // ---------------------------------------------------------------------------
+  // AUTOMATION
+  // ---------------------------------------------------------------------------
+  {
+    name: 'Zapier',
+    level: 85,
+    category: 'Automation',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Make (Integromat)',
+    level: 85,
+    category: 'Automation',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'GHL (Go High Level)',
+    level: 80,
+    category: 'Automation',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Pabbly',
+    level: 75,
+    category: 'Automation',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Airtable',
+    level: 80,
+    category: 'Automation',
+    yearsOfExperience: 2,
   },
 ];
 
