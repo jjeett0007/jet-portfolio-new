@@ -89,6 +89,7 @@ export const skillCategories: string[] = [
   'DevOps & Cloud',
   'Payments & APIs',
   'Automation',
+  'Web3',
 ];
 
 /**
@@ -336,7 +337,19 @@ export const skills: Skill[] = [
   {
     name: 'Helius (Solana)',
     level: 75,
-    category: 'Payments & APIs',
+    category: 'Web3',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Solana Web3',
+    level: 75,
+    category: 'Web3',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'GIL (Gecko Index)',
+    level: 70,
+    category: 'Web3',
     yearsOfExperience: 1,
   },
   {
