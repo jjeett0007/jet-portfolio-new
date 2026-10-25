@@ -1,14 +1,4 @@
 {
-  "name": "live-resume",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "node api.js && next dev",
-    "build": "node api.js && next build",
-    "start": "node api.js && next start",
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit"
-  },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "clsx": "^2.1.1",
@@ -23,13 +13,23 @@
     "zod": "^4.3.5"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
+    "@tailwindcss/postcss": "^4.1.17",
     "@types/node": "^24.10.2",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "@tailwindcss/postcss": "^4.1.17",
-    "tailwindcss": "^4.1.17",
     "eslint": "^9.39.1",
-    "eslint-config-next": "^16.0.0"
-  }
+    "eslint-config-next": "^16.0.0",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  },
+  "name": "live-resume",
+  "private": true,
+  "scripts": {
+    "build": "node init && next build",
+    "dev": "node init && next dev",
+    "lint": "eslint",
+    "start": "node init && next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "version": "0.1.0"
 }
