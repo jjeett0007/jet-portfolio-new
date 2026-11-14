@@ -25,10 +25,10 @@
   "name": "live-resume",
   "private": true,
   "scripts": {
-    "build": "node init && next build",
-    "dev": "node init && next dev",
+    "build": "next build",
+    "dev": "next dev",
     "lint": "eslint",
-    "start": "node init && next start",
+    "start": "next start",
     "typecheck": "tsc --noEmit"
   },
   "version": "0.1.0"
